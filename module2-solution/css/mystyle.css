@@ -1,22 +1,24 @@
 * {
   box-sizing: border-box;
+   font-family: Helvetica;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
-
+  font-size: 75%;
+  font-size: 2em;
 }
 
 p {
   background-color: #afa9b0;
   width: 100%;
-  height: 200px;
   margin-right: 0px;
   margin-left: 0px;
-  font-family: Helvetica;
+  /*font-family: Helvetica;*/
   color: white;
   clear: right;
   padding: 10px;
+  overflow: visible;
 
 }
 .box{
@@ -27,15 +29,15 @@ p {
   background: #dfb0c8;
   color: #000000;
     font-weight: bolder;
-   position: top-right;
+    position: top-right;
   float: right;
   clear: left;
-  padding: 10px;
   width: 100px;
   height: 36px;
-  border-left: 2px solid black;
+  text-align: center;
+  border-left: 1px solid black;
   border-right: 0px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   border-top: 0px;
 }
 #t2 {
@@ -44,12 +46,12 @@ p {
   font-weight: bolder;
   position: top-right;
   float: right;
-  padding: 10px;
   width: 100px;
   height: 36px;
-  border-left: 2px solid black;
+  text-align: center;
+  border-left: 1px solid black;
   border-right: 0px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   border-top: 0px solid black;
 }
 #t3 {
@@ -58,12 +60,12 @@ p {
   font-weight: bolder;
   position: top-right;
   float: right;
-  padding: 10px;
   width: 100px;
   height: 36px;
-  border-left: 2px solid black;
+  text-align: center;
+  border-left: 1px solid black;
   border-right: 0px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   border-top: 0px;
 }
 
@@ -81,7 +83,7 @@ p {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
  padding: 10px;
- 
+
 
   }
   .col-lg-1 {
