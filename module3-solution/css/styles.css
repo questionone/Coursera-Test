@@ -1,0 +1,111 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Helvetica;
+}
+
+/** HEADER **/
+header {
+   border-radius: 0;
+  border: 0;
+}
+#header-nav {
+  background-color: #afa9b0;
+   border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+/* position: fixed;*/
+   padding-top: 5px;
+   margin-top: 10px;
+  align: left;
+
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 25px;
+ 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  /*position: fixed;*/
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  /*margin-top: -30px;*/
+
+}
+
+#nav-list {
+  margin-top: 3px;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ffffff;
+  margin-bottom:;
+}
+#nav-list a span {
+background: #ffffff;
+}
+
+#collapsable-nav li a {
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom:5px;
+border-bottom: 1px solid black;
+}
+
+h2 {
+font-family: Helvetica;
+  text-color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+  float: both;
+}
+
+h3 {
+font-family: Helvetica;
+padding: 0;
+ margin-top: 0;
+  text-align: center;
+  text-color: #000000;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* HOME PAGE */
+.container  {
+ margin: 25px;
+}
+.main-content {
+background-color: #afa9b0;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+
+
